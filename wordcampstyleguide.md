@@ -97,3 +97,4 @@ If you need more help, check the Help screen on Remote CSS page on your WordCamp
  * [WordCamp Europe 2017](https://lucijanblagonic.github.io/wceu-2017/styleguide)
  * [WordCamp Zagreb 2017](https://lucijanblagonic.github.io/2017.zagreb.wordcamp.org/styleguide/)
  * [WordCamp Europe 2018](https://lucijanblagonic.github.io/wceu-2018/styleguide)
+ * [WordCamp Bordeaux 2019](https://github.com/WP-Translations/wcbdx-2019/)
