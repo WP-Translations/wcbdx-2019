@@ -1,7 +1,7 @@
 ﻿
 
 
- # WordCamp Style Guide 
+ # WordCamp Bordeaux 2019 Style Guide 
 
 ## CampSite 2017 theme and a style guide 
 [WordCamp Europe 2017](https://2017.europe.wordcamp.org/) design team ported the [Underscores](https://underscores.me/) theme and made it available for [all WordCamps](https://make.wordpress.org/community/2017/05/08/the-new-wordcamp-base-theme-campsite-2017/) as a base theme. The theme was improved with additional [widget areas](https://lucijanblagonic.github.io/wceu-2018/styleguide/section-6.html#kssref-6-widget-areas) and a “Day of” template —based on the feedback received from the WordPress community.
@@ -97,3 +97,5 @@ If you need more help, check the Help screen on Remote CSS page on your WordCamp
  * [WordCamp Europe 2017](https://lucijanblagonic.github.io/wceu-2017/styleguide)
  * [WordCamp Zagreb 2017](https://lucijanblagonic.github.io/2017.zagreb.wordcamp.org/styleguide/)
  * [WordCamp Europe 2018](https://lucijanblagonic.github.io/wceu-2018/styleguide)
+ * [WordCamp Bordeaux 2019](https://github.com/WP-Translations/wcbdx-2019/)
+
