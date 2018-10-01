@@ -1,6 +1,6 @@
-# WordCamp [Name] [Year]
+# WordCamp Bordeaux 2019
 
-Style guide for the WordCamp [Name] [Year] theme
+Style guide for the WordCamp Bordeaux 2019 theme
 
 ## Style guide
 
