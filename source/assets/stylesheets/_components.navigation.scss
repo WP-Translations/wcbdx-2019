@@ -30,10 +30,10 @@
   font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
-  color: $color-text-strong-invert;
+  color: $color-link;
 
   border-radius: 0;
-  background-color: $color-brand-primary;
+  background-color: rgba($color-brand-tertiary, .9);
 
   cursor: pointer;
 
@@ -42,8 +42,8 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong-invert;
-    background-color: $color-brand-secondary;
+    color: $color-link-hover;
+    background-color: rgba($color-brand-tertiary, .9);
 
   }
 
@@ -71,7 +71,7 @@
 
     vertical-align: middle;
 
-    border-top-color: $color-text-strong-invert;
+    border-top-color: $color-link;
 
     content: "";
 
@@ -79,12 +79,12 @@
 
   &[aria-expanded="true"] {
 
-    color: $color-text-strong-invert;
+    color: $color-link;
 
     &:after {
 
       border-top-color: transparent;
-      border-bottom-color: $color-text-strong-invert;
+      border-bottom-color: $color-link;
 
     }
 
@@ -109,30 +109,29 @@
 // .menu-main-navigation-container {}
 
 .main-navigation {
+	background-color: $color-brand-primary;
 
   position: relative;
 
-  // &:before {
+  &:before {
 
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 
-  //   height: rem(2);
-  //   background-color: $color-link;
+    height: rem(2);
+    background-color: $color-link;
 
-  //   content: "";
+    content: "";
 
-  // }
-
-  // background-color: $color-brand-tertiary;
-  background-color: $color-brand-quaternary;
-  background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.3));
+  }
 
   @include breakpoint(to-small) {
 
-    background-color: $color-brand-quaternary;
+    background-color: $color-brand-tertiary;
+
+
 
     &.toggled-on .menu {
 
@@ -184,7 +183,6 @@
   font-size: ms(0);
   font-weight: $bold;
   text-align: left;
-  text-transform: uppercase;
 
   @include breakpoint(small) {
 
@@ -202,7 +200,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-text-strong-invert;
+  color: $color-link;
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -213,8 +211,8 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong-invert;
-    background-color: $color-brand-primary;
+    color: $color-text-strong;
+    background-color: $color-link-hover;
 
   }
 
@@ -226,7 +224,7 @@
 
   @include breakpoint(large) {
 
-    padding: $unit-m $unit-m;
+    padding: $unit-m $unit-l;
 
   }
 
@@ -234,7 +232,7 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong-invert;
+  color: $color-text-strong;
   background-color: $color-link;
 
 }
@@ -245,7 +243,7 @@
 
 .menu-item-has-children {
 
-  // background-color: rgba($color-brand-tertiary, .6);
+  background-color: rgba($color-brand-tertiary, .6);
 
   .dropdown-toggle {
 
@@ -265,13 +263,12 @@
         top: -(rem(2));
 
         display: inline-block;
-        border: rem(4) solid transparent;
+        border: rem(6) solid transparent;
         margin-left: $unit-xs;
 
         vertical-align: middle;
 
-        border-top-color: $color-brand-tertiary;
-        // border-top-color: $color-brand-primary;
+        border-top-color: $color-link;
 
         content: "";
 
@@ -290,12 +287,12 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong-invert;
+      color: $color-text-strong;
       background-color: $color-link;
 
       &:after {
 
-        border-top-color: $color-text-strong-invert;
+        border-top-color: $color-text-strong;
 
       }
 
@@ -336,33 +333,16 @@
 
       padding-left: rem(40);
 
-      &:before {
-
-        position: absolute;
-        left: $unit-m;
-        top: 50%;
-        margin-top: 0 - rem(8);
-
-        width: rem(2);
-        height: rem(16);
-        transform: rotate(45deg);
-
-        background-color: $color-text-weak-invert;
-
-        content: "";
-
-      }
-
-      // background-image: $image-bullet-color;
-      // background-repeat: no-repeat;
-      // background-size: 12px;
-      // background-position: $unit-s 50%;
+      background-image: $image-bullet-color;
+      background-repeat: no-repeat;
+      background-size: 12px;
+      background-position: $unit-s 50%;
 
       &:hover,
       &:focus,
       &.focus {
 
-        // background-image: $image-bullet-dark;
+        background-image: $image-bullet-dark;
 
       }
 
@@ -395,7 +375,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-text-strong-invert;
+      color: $color-text;
 
     }
 
@@ -416,8 +396,8 @@
 
     a {
 
-      padding-left: $unit-m;
-      padding-right: $unit-m;
+      padding-left: $unit-l;
+      padding-right: $unit-l;
 
     }
 
