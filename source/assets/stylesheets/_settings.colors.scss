@@ -217,7 +217,7 @@
 $color-brand-primary:             #5e574d;
 $color-brand-secondary:           #9dad6f;
 $color-brand-tertiary:            #b4e048;
-$color-brand-quaternary:          #5e584e,;
+$color-brand-quaternary:          #5e584e;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
