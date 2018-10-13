@@ -116,7 +116,7 @@
 	float: left;
 	padding: 10px;
 	height: 140px;
-	background-image: url('$image-realistic-ticket');
+	background-image: $image-realistic-ticket;
 	background-repeat: no-repeat;
 	background-size: 460px 140px;
 	transition: all .15s ease;
