@@ -68,9 +68,7 @@
  * Default text widget styles
  */
  
-.widget_text:before {
-    background-color: $color-grey-10 !important;
-}
+
 .widget_text {
 
   background-color: $color-grey-10;
@@ -81,6 +79,9 @@
 
   }
 
+}
+.widget_text:before {
+    background-color: $color-grey-10 !important;
 }
 
 #custom_html-2 p {
