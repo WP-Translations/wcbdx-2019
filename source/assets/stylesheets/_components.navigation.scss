@@ -200,7 +200,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-brand-secondary;
+  color: $color-brand-tertiary;
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -212,7 +212,7 @@
   &:focus,
   &.focus {
 
-    color: $color-brand-tertiary;
+    color: $color-brand-secondary;
     background-color: $color-link-hover;
 
   }
@@ -233,7 +233,7 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong;
+  color: $color-brand-tertiary;
   background-color: $color-link;
 
 }
