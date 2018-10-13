@@ -67,6 +67,7 @@
  *
  * Default text widget styles
  */
+ 
 .widget_text:before {
     background-color: $color-grey-10 !important;
 }
@@ -80,4 +81,10 @@
 
   }
 
+}
+
+#custom_html-2 p {
+    margin-bottom: 0;
+    margin-right: 20rem;
+    text-align: left;
 }
