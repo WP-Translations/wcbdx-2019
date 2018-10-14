@@ -126,10 +126,7 @@
 }
 
 // Large
-.wcorg-sponsor-level-administrator,
-.wcorg-sponsor-level-event-after-party,
-.wcorg-sponsor-level-event-speakers-dinner,
-.wcorg-sponsor-level-super-admin {
+.sponsor-level.jeroboam {
 
   @include clearfix();
 
@@ -154,9 +151,7 @@
 }
 
 // Medium
-.wcorg-sponsor-level-speakers-dinner,
-.wcorg-sponsor-level-author,
-.wcorg-sponsor-level-editor {
+.sponsor-level.magnum {
 
   @include clearfix();
 
@@ -175,8 +170,7 @@
 }
 
 // Small
-.wcorg-sponsor-level-subscriber,
-.wcorg-sponsor-level-small-business {
+.sponsor-level.bordelaise {
 
   @include clearfix();
 
