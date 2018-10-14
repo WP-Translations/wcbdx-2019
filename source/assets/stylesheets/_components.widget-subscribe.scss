@@ -15,7 +15,8 @@
 
   &:before {
 
-    background: $color-brand-tertiary url('$image-pattern-01');
+    background-color: $color-brand-tertiary;
+    background-image: $image-pattern-01;
 
   }
 
