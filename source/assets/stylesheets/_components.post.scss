@@ -26,6 +26,26 @@
   @include clearfix();
 
 }
+.entry-content h2 {
+	text-transform: none;
+	position: relative;
+	z-index: 1;
+	margin-top: 6rem;
+}
+
+.entry-content h2:after {
+	background: rgba(157,173,111,.55);
+	bottom: -10%;
+	content: '';
+	width: 40%;
+	position: absolute;
+	left: .25rem;
+	right: 5%;
+	top: 80%;
+	bottom: -10%;
+	z-index: -1;
+	text-align: center;
+}
 
 .entry-title {
 
