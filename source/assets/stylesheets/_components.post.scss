@@ -19,7 +19,9 @@
 
 }
 
-.entry-header {}
+.entry-header {
+	text-align: center;
+}
 
 .entry-content {
 
@@ -48,7 +50,9 @@
 }
 
 .entry-title {
-
+	font-weight: $light;
+	text-transform: inherit;
+	color: $color-brand-quaternary;
   font-size: ms(4);
   line-height: ms(1);
 
