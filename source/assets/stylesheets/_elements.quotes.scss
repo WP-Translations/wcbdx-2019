@@ -36,3 +36,22 @@ blockquote {
   }
 
 }
+.entry-content blockquote p {
+	text-indent: -23px;
+	padding-left: 1.5rem;
+}
+
+.entry-content blockquote.energie p:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+blockquote.energie p:before {
+	background-image: url('https://2019.bordeaux.wordcamp.org/files/2018/10/activity.png');
+}
+
+blockquote.a11y p:before {
+	background-image: url('https://2019.bordeaux.wordcamp.org/files/2018/10/a11y.png');
+}
