@@ -141,7 +141,7 @@
 	transform-origin: 0 100%;
 }
 
-.realistic-ticket .realistic-ticket__info-action,.realistic-ticket .realistic-ticket__info-event,.realistic-ticket .realistic-ticket__info-label {
+.realistic-ticket .realistic-ticket__info-action,.realistic-ticket .realistic-ticket__info-label {
 	padding: 15px;
 	transition: all .15s ease;
 }
@@ -162,19 +162,6 @@
 .realistic-ticket .realistic-ticket__info-action {
 	top: 50%;
 	bottom: 0;
-}
-
-.realistic-ticket .realistic-ticket__info-event {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	font-weight: 300;
-	width: 140px;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	-webkit-transform-origin: 0 0;
-	transform-origin: 0 0;
-	color: rgba(0,0,0,.9);
 }
 
 @media (min-width:48em) {
