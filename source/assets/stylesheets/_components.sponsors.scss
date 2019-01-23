@@ -126,7 +126,7 @@
 }
 
 // Large
-.sponsor-level.jeroboam {
+.partner-level.jeroboam {
 
   @include clearfix();
 
@@ -151,7 +151,7 @@
 }
 
 // Medium
-.sponsor-level.magnum {
+.partner-level.magnum {
 
   @include clearfix();
 
@@ -170,7 +170,7 @@
 }
 
 // Small
-.sponsor-level.bordelaise {
+.partner-level.bordelaise {
 
   @include clearfix();
 
@@ -189,7 +189,7 @@
 }
 
 // Tiny
-.wcorg-sponsor-level-microsponsor {
+.wcorg-partner-level-microsponsor {
 
   @include clearfix();
 
@@ -208,10 +208,10 @@
 }
 
 // Hide
-.wcorg-sponsor-level-community-summit-individual,
-.wcorg-sponsor-level-community-summit-gold,
-.wcorg-sponsor-level-community-summit-silver,
-.wcorg-sponsor-level-community-summit-bronze {
+.wcorg-partner-level-community-summit-individual,
+.wcorg-partner-level-community-summit-gold,
+.wcorg-partner-level-community-summit-silver,
+.wcorg-partner-level-community-summit-bronze {
 
   display: none!important;
 
